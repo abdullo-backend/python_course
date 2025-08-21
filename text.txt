@@ -1,0 +1,28 @@
+#333333  сиёх
+#1E90FF  кабуд
+
+
+
+<pre><code>
+def greet(name):
+    print(f"Салом, {name}!")
+greet("Abdullo")
+</code></pre>
+<button onclick="copyCode(this)">Copy</button>
+
+
+
+
+
+code, pre {
+  background-color: #1e1e1e; /* ранги фон мисли VSCode */
+  color: #d4d4d4;             /* ранги матн */
+  font-family: 'Courier New', monospace;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  white-space: pre;           /* нигоҳ доштани фосилаҳо */
+  overflow-x: auto;           /* агар код хеле дароз бошад, scroll пайдо шавад */
+}
+
+#ffffff

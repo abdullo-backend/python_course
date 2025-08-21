@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.glavni {
+  background-color: #1E90FF;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+.glavni p {
+  color: #333333;
+  margin-top: 20px;
+}
+
+
+.down-tri {
+  display:inline-block;
+  width: 0;
+  height: 0;
+  border-left: 0.5em solid transparent;
+  border-right: 0.5em solid transparent;
+  border-top: 0.8em solid white; /* ранги дилхоҳ */
+}
+fieldset{
+  border: 2px solid #333333;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #333333;
+  
+}
+.lessons { 
+  padding-left: 30px;
+  width: 40%;
+  
+}
+.lessons h1 { 
+  padding: 20px;
+}
+.lessons button { 
+  background-color: #1E90FF;
+  width: 90%;
+  padding: 5px;
+  margin: 5px auto;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 1px solid black;
+  text-align: start;
+}
+.lessons button a{ 
+  text-decoration: none;
+  color: white;
+}
+.lessons button:hover{ 
+  background-color: #333333;
+}
+.lessons_media {
+  display: none;
+}
+
+footer {
+  position: fixed;
+  top: 95vh;
+  width: 100%;
+  text-align: center;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+
+
+
+
+
+
+/* ____________media 800px______________ */
+
+
+
+
+@media (max-width: 800px) {
+
+
+  .lessons {
+    display: none;
+  }
+  .lessons_media{ 
+    display: block;
+  }
+  legend {
+    font-size: ;
+  }
+
+
+}
+
+
+
+/* ____________media 500px______________ */
+
+
+
+@media (max-width: 500px){
+  .lessons button {
+    width: 90%;
+
+  }
+  
+}
