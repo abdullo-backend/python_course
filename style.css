@@ -94,6 +94,7 @@ footer {
   }
   .lessons_media{ 
     display: block;
+    width: 80%;
   }
   legend {
     font-size: ;
