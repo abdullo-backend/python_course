@@ -1,4 +1,4 @@
-* {
+  * {
   margin: 0;
   padding: 0;
 }
@@ -62,7 +62,7 @@ fieldset{
   padding: 20px;
 
 }
-.lessons button { 
+/* .lessons button { 
   background-color: #1E90FF;
   width: 90%;
   padding: 5px;
@@ -71,15 +71,34 @@ fieldset{
   border-bottom-right-radius: 30px;
   border: 1px solid black;
   text-align: start;
-}
-.lessons button a{ 
+} */
+/* .lessons button a{ 
   text-decoration: none;
   color: white;
-}
-.lessons button:hover{ 
+} */
+/* .lessons button:hover{ 
   background-color: #333333;
+} */
+
+fieldset {
+  /* background-color: red; */
+}
+fieldset a{
+  text-decoration: none;
 }
 
+fieldset a p {
+  background-color: #1E90FF;
+  text-align: start;
+  padding: 5px;
+  border: 1px solid black;
+  border-top-right-radius: 100px;
+  margin: 10px;
+  color: #ffffff;
+}
+fieldset a p:hover {
+  background-color: #333333;
+}
 
 footer {
   position: fixed;
@@ -90,6 +109,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 
   
 }
