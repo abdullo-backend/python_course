@@ -92,7 +92,8 @@ fieldset a p {
   text-align: start;
   padding: 5px;
   border: 1px solid black;
-  border-top-right-radius: 100px;
+  /* border-top-right-radius: 100px; */
+  border-radius: 10px;
   margin: 10px;
   color: #ffffff;
 }
